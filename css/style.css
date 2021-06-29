@@ -32,11 +32,29 @@ nav {
   padding-left: 16px;
 }
 
-.banner {
+/* .banner {
   background-image: url("../img/banner.png");
   height: 235px;
+} */
+.frete{
+  position: sticky;
+  top:0
 }
+.frete div{
+  background-color: #c2185b;
+  height: 40px;
+  width: 100%;
+  position: absolute
+}
+.frete span{
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  
 
+}
 .join-us {
   padding: 0 20px;
   margin-bottom: 30px;
@@ -118,6 +136,20 @@ button[type="submit"] {
   font-weight: 800;
   background-color: #c2185b;
   padding: 8px 0;
+}
+
+button:hover{
+  color: #c2185b;
+  background-color: #fff;
+  padding: 8px 0;
+  border-bottom: outset 4px #c4c4c485;
+  border-left: outset 3px #c4c4c485;
+  border-right: outset 3px #c4c4c485;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  
+  transition-duration: 3s;
+
 }
 
 .footer {
